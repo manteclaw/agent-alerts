@@ -1,0 +1,5 @@
+# Both dependencies are optional:
+# - without python-telegram-bot, alert_bot.py uses plain HTTPS calls instead.
+# - without python-dotenv, set variables in your shell instead of a .env file.
+python-telegram-bot>=21
+python-dotenv>=1.0
